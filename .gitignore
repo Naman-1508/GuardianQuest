@@ -1,0 +1,20 @@
+# Node
+node_modules/
+.env
+dist/
+build/
+
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+build/
+ios/Pods/
+android/.gradle/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log

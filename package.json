@@ -1,0 +1,30 @@
+{
+  "name": "guardianquest",
+  "version": "1.0.0",
+  "description": "An AI-Powered Game & Story Co-Creation Platform",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "React",
+    "Node",
+    "Full",
+    "Stack",
+    "AI"
+  ],
+  "author": "Naman Jain",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}

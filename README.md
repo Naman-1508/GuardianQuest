@@ -1,0 +1,1 @@
+Guardian Quest is a platform that uses generative AI to help children in hospitals and orphanages create stories and games, offering emotional support, creative expression, and moments of joy during challenging times.
