@@ -35,8 +35,19 @@
         },
         password:{
             type:String,
+            required:[true,'Password is required'],
+        },
+        refreshTokens:{
+            type:String,
+        },
+        coverImage:{
+            type:String // Cloudinary URL
+        },
+        avatar:{
+            type:String, // Cloudinary URL
             required:true,
         }
+        
     },{timestamps: true})
 
     userSchema.pre("save",async function (next) {
